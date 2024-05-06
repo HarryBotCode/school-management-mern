@@ -17,7 +17,7 @@ app.use(express.json({ limit: '10mb' }))
 app.use(cors(
     {
         origin: ["https://school-management-mern-hsem.vercel.app/"],
-        methods: ["POST", "GET"],
+        methods: ["POST", "GET", "PUT"],
         credentials: true
     }
 ))
